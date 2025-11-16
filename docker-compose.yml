@@ -20,7 +20,7 @@ services:
     ports:
       - "8086:8086"
     environment:
-      - INFLUXDB_DB=evidently_metrics
+      - INFLUXDB_DB=monitoring_metrics
       - INFLUXDB_ADMIN_USER=admin
       - INFLUXDB_ADMIN_PASSWORD=admin
     volumes:
